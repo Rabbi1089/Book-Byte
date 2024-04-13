@@ -4,8 +4,11 @@ export default {
   theme: {
     extend: {},
     colors: {
-      primaryGreen: "#43ff64d9",
+      primaryGreen: "#23BE0A",
+      secondaryColor: "#59c6d2",
       white: "#FFFFFF",
+      bgGray: "#F4FCF3",
+      black: "#122033",
     },
   },
   // eslint-disable-next-line no-undef

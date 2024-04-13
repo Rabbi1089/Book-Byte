@@ -26,17 +26,17 @@ const Nav = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-100 w-52 gap-1"
           >
             <NavLink
-              to="/"
+              to="/home"
               className={({ isActive }) =>
-                isActive ? "text-[#43ff64d9] scale-105" : "text-black"
+                isActive ? " text-primaryGreen scale-105" : "text-black"
               }
             >
-              Home-small
+              Home
             </NavLink>
             <NavLink
               to="/ListedBooks"
               className={({ isActive }) =>
-                isActive ? "text-[#43ff64d9] scale-105" : "text-black"
+                isActive ? "text-primaryGreenscale-105" : "text-black"
               }
             >
               Listed Books
@@ -44,7 +44,7 @@ const Nav = () => {
             <NavLink
               to="/ToRead"
               className={({ isActive }) =>
-                isActive ? "text-[#43ff64d9] scale-105" : "text-black"
+                isActive ? "text-primaryGreen scale-105" : "text-black"
               }
             >
               Pages to Read
@@ -56,10 +56,10 @@ const Nav = () => {
       <div className="navbar-center hidden lg:flex ">
         <ul className="menu menu-horizontal px-1 gap-3 text-xl font-semibold">
           <NavLink
-            to="/"
+            to="/home"
             className={({ isActive }) =>
               isActive
-                ? "text-[#43ff64d9] border-2  border-[#43ff64d9] font-bold p-2 rounded"
+                ? "text-primaryGreen border-2 border-primaryGreen font-bold p-2 rounded"
                 : "text-black border-2 border-none font-bold p-2"
             }
           >
@@ -69,7 +69,7 @@ const Nav = () => {
             to="/ListedBooks"
             className={({ isActive }) =>
               isActive
-                ? "text-[#43ff64d9] border-2  border-[#43ff64d9] font-bold p-2 rounded"
+                ? " text-primaryGreen border-2  border-primaryGreen font-bold p-2 rounded"
                 : "text-black border-2 border-none font-bold p-2"
             }
           >
@@ -79,7 +79,7 @@ const Nav = () => {
             to="/ToRead"
             className={({ isActive }) =>
               isActive
-                ? "text-[#43ff64d9] border-2  border-[#43ff64d9] font-bold p-2 rounded"
+                ? "text-primaryGreen border-2  border-primaryGreen font-bold p-2 rounded"
                 : "text-black border-2 border-none font-bold p-2"
             }
           >
@@ -88,10 +88,10 @@ const Nav = () => {
         </ul>
       </div>
       <div className="navbar-end gap-3 lg:gap-3">
-        <a className="btn text-white bg-[#43ff64d9] border-[#43ff64d9]">
+        <a className="btn text-white  bg-primaryGreen border-primaryGreen">
           Sign In
         </a>
-        <a className="btn">Sign Up</a>
+        <a className="btn bg-secondaryColor text-white">Sign Up</a>
       </div>
     </div>
   );
