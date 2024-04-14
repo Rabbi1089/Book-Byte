@@ -4,6 +4,8 @@ import ToRead from "../pages/ToRead";
 import Home from "../pages/Home.jsx";
 import BookDetail from "../components/BookDetail.jsx";
 import MainLayout from "../layout/MainLayout.jsx";
+import WishBooks from "../components/WishBooks.jsx";
+import ReadBooks from "../components/ReadBooks.jsx";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -24,6 +26,19 @@ export const router = createBrowserRouter([
       {
         path: "/ListedBooks",
         element: <ListedBooks />,
+        loader: () => fetch("Books.json"),
+        children: [
+          {
+            path: "WishBooks",
+            element: <WishBooks />,
+            loader: () => fetch("Books.json"),
+          },
+
+          {
+            path: "ReadBooks",
+            element: <ReadBooks />,
+          },
+        ],
       },
 
       {

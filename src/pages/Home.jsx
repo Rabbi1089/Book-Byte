@@ -3,6 +3,7 @@ import BookCart from "../components/BookCart";
 
 const Home = () => {
   const books = useLoaderData();
+  console.log(books);
   return (
     <div className="mx-auto">
       <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12 ">

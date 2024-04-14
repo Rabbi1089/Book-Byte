@@ -1,6 +1,5 @@
 import { CiStar } from "react-icons/ci";
 import { Link } from "react-router-dom";
-import BookDetail from "./BookDetail";
 const BookCart = ({ book }) => {
   const { bookName, tags, image, author, category, rating, bookId } = book;
   //console.log(image);
@@ -45,7 +44,7 @@ const BookCart = ({ book }) => {
                 <CiStar />
               </div>
             </div>
-            {/* rating start here */}
+            {/* rating end here */}
           </div>
         </div>
       </Link>
