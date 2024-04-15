@@ -1,7 +1,9 @@
+import BarCharts from "../components/BarCharts";
+import BarChart from "../components/BarCharts";
 const ToRead = () => {
   return (
-    <div>
-      <h1>I am page to Read</h1>
+    <div className=" flex items-center justify-center mx-auto">
+      <BarCharts />
     </div>
   );
 };

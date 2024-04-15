@@ -9,6 +9,7 @@ export default {
       white: "#FFFFFF",
       bgGray: "#F4FCF3",
       black: "#122033",
+      pri2: "#FFB03E",
     },
   },
   // eslint-disable-next-line no-undef

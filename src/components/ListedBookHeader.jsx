@@ -17,7 +17,7 @@ const ListedBookHeader = () => {
             className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Rating</a>
+              <a >Rating</a>
             </li>
             <li>
               <a>Number Of page</a>

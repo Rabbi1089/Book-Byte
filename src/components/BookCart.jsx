@@ -1,6 +1,7 @@
 import { CiStar } from "react-icons/ci";
 import { Link } from "react-router-dom";
 const BookCart = ({ book }) => {
+  // eslint-disable-next-line react/prop-types
   const { bookName, tags, image, author, category, rating, bookId } = book;
   //console.log(image);
 
