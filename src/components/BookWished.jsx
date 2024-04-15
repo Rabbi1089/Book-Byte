@@ -1,7 +1,6 @@
-const BookWished = ({ book }) => {
-  console.log("frombook wished", book);
+const BookWished = ({ book}) => {
   const { yearOfPublishing } = book;
-  console.log("frombook wished", yearOfPublishing);
+
   return (
     <div>
       <div className="card card-side bg-base-100 shadow-xl max-w-6xl mx-auto m-3 p-3">
