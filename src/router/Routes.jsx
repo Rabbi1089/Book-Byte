@@ -6,6 +6,8 @@ import BookDetail from "../components/BookDetail.jsx";
 import MainLayout from "../layout/MainLayout.jsx";
 import WishBooks from "../components/WishBooks.jsx";
 import Books from "../components/Books.jsx";
+import Main from "../pages/Main.jsx";
+import ErrorPage from "../components/ErrorPage.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -13,9 +15,9 @@ export const router = createBrowserRouter([
     element: <MainLayout />,
     children: [
       {
-        path: "/home",
-        element: <Home />,
-        loader: () => fetch("Books.json"),
+        path: "/",
+        element: <Main />,
+        errorElement: <ErrorPage />,
       },
 
       {
@@ -36,9 +38,8 @@ export const router = createBrowserRouter([
 
           {
             path: "readbooks",
-            element: <Books />
-           
-          }
+            element: <Books />,
+          },
         ],
       },
 

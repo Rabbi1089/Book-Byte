@@ -27,7 +27,7 @@ const Nav = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-100 w-52 gap-1"
             >
               <NavLink
-                to="/home"
+                to="/"
                 className={({ isActive }) =>
                   isActive ? " text-primaryGreen scale-105" : "text-black"
                 }
@@ -57,7 +57,7 @@ const Nav = () => {
         <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal px-1 gap-3 text-xl font-semibold">
             <NavLink
-              to="/home"
+              to="/"
               className={({ isActive }) =>
                 isActive
                   ? "text-primaryGreen border-2 border-primaryGreen font-bold p-2 rounded"

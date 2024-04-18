@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const ReadWishedBook = () => {
   const [tabIndex, setTabIndex] = useState(0);
@@ -7,7 +7,7 @@ const ReadWishedBook = () => {
   //console.log(booksRead);
 
   return (
-    <div className="">
+    <div>
       <div className="flex justify-center items-center -mx-4 overflow-x-auto lg:max-w-6xl  lg:mt-2 overflow-y-hidden sm:justify-center flex-nowrap dark:bg-gray-100 dark:text-gray-800 ">
         <Link
           to="readbooks"
