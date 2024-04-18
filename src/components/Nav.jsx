@@ -50,6 +50,14 @@ const Nav = () => {
               >
                 Pages to Read
               </NavLink>
+              <NavLink
+                to="/Contact"
+                className={({ isActive }) =>
+                  isActive ? "text-primaryGreen scale-105" : "text-black"
+                }
+              >
+                Contact
+              </NavLink>
             </ul>
           </div>
           <a className="btn btn-ghost text-xl">Book Vibe</a>
@@ -85,6 +93,16 @@ const Nav = () => {
               }
             >
               Pages to Read
+            </NavLink>
+            <NavLink
+              to="/Contact"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-primaryGreen border-2  border-primaryGreen font-bold p-2 rounded"
+                  : "text-black border-2 border-none font-bold p-2"
+              }
+            >
+              Contact
             </NavLink>
           </ul>
         </div>

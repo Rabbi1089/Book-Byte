@@ -8,6 +8,7 @@ import WishBooks from "../components/WishBooks.jsx";
 import Books from "../components/Books.jsx";
 import Main from "../pages/Main.jsx";
 import ErrorPage from "../components/ErrorPage.jsx";
+import Contact from "../components/Contact.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
       {
         path: "/ToRead",
         element: <ToRead />,
+      },
+      {
+        path: "/Contact",
+        element: <Contact />,
       },
     ],
   },

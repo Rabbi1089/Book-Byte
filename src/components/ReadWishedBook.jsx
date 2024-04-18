@@ -8,6 +8,9 @@ const ReadWishedBook = () => {
 
   return (
     <div>
+      <h1 className=" text-sm text-center">
+        Click below to see read or whitelisted Book.
+      </h1>
       <div className="flex justify-center items-center -mx-4 overflow-x-auto lg:max-w-6xl  lg:mt-2 overflow-y-hidden sm:justify-center flex-nowrap dark:bg-gray-100 dark:text-gray-800 ">
         <Link
           to="readbooks"
