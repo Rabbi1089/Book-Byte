@@ -9,6 +9,8 @@ import Books from "../components/Books.jsx";
 import Main from "../pages/Main.jsx";
 import ErrorPage from "../components/ErrorPage.jsx";
 import Contact from "../components/Contact.jsx";
+import { BarChart } from "recharts";
+import BarChart2 from "../components/BarChart2/BarChart2.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -38,7 +40,7 @@ export const router = createBrowserRouter([
           },
 
           {
-            path: "readbooks",
+            path: "",
             element: <Books />,
           },
         ],
@@ -46,11 +48,15 @@ export const router = createBrowserRouter([
 
       {
         path: "/ToRead",
-        element: <ToRead />,
+        element: <BarChart2 />,
       },
       {
         path: "/Contact",
         element: <Contact />,
+      },
+      {
+        path: "/barchart2",
+        element: <BarChart2 />,
       },
     ],
   },
