@@ -1,8 +1,26 @@
-# React + Vite
+# 📚 Book Library Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Check out the live application here: https://book-byte.netlify.app/
+ 
+A modern web application for book lovers to explore, organize, and manage their personal reading journey. Users can sort books, manage their **Read List** and **Wishlist**, and view detailed information about each book.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+
+- 🔎 **Browse Books**
+  - Explore a wide collection of books with key details like title, author, year, rating, and pages.
+
+- 📊 **Sorting Options**
+  - Sort books by:
+    - 📅 Published Year
+    - 📄 Number of Pages
+    - ⭐ Rating
+
+- 📌 **User Interactions**
+  - ✅ Add books to **Read List**
+  - 📥 Add books to **Wishlist**
+  - 🗂️ View and manage both lists separately
+
+- 💡 **Book Details**
+  - Click on any book to view full description and metadata.
